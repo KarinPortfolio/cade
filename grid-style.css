@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  justify-content: center;
+  padding: auto;
+  grid-template-columns: 20vw 25vw 30vw;
+  grid-template-rows: 40vw 20vw 30vw;
+  grid-auto-flow: row;
+  width: 100%;
+  gap: 10px;
+}
+
+.grid-galeria {
+  display: none;
+}
+
+.foto-1 {
+  background-image: url(imagem/1.jpg);
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: top;
+}
+
+.foto-2 {
+  background-image: url(imagem/2.jpg);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-3 {
+  background-image: url(imagem/3.jpg);
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.foto-4 {
+  background-image: url(imagem/4.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-5 {
+  background-image: url(imagem/5.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-6 {
+  background-image: url(imagem/6.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-7 {
+  background-image: url(imagem/7.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-8 {
+  background-image: url(imagem/8.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-9 {
+  background-image: url(imagem/9.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.foto-10 {
+  background-image: url(imagem/10.jpg);
+  width: 80vw;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media screen and (max-width: 500px) {
+  .grid {
+    display: none;
+  }
+
+  .grid-galeria {
+    display: initial;
+
+  }
+
+  .grid-galeria img {
+    width: 65%;
+  }
+
+}

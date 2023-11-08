@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="um evento">
+  <title>Cadê - Capacite-se</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="car-style.css">
+  <link rel="stylesheet" href="grid-style.css">
+  <link rel="stylesheet" href="dropdown.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navmenu">
+      <img src="imagem/logo-mini.png" class="logo" alt="logo">
+      - Cadê - capacite-se
+      <ul class="menu">
+        <li><a href="#">Página Principal</a></li>
+        <li><a href="#programacao">Programação</a></li>
+        <li><a href="#">Informações</a>
+          <ul>
+            <li><a href="#inscreva">Inscrição</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#video">Vídeo</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <nav class="navmini">
+      <div class="inscricao">
+        <button><a href="#inscreva">Inscreva-se</a></button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="titulo">
+      <h3>Inscrições presenciais de 01 a 03 dezembro das 8h - 12h </h3>
+      <h1>Cadê</h1>
+      <h3>R. Elpídio dos Santos, 60 - Campo dos Alemães, São José dos Campos - SP, 12239-460</h3>
+    </div>
+
+    <div class="assunto">
+      <h2>Capacitação Profissional</h2>
+    </div>
+
+    <div class="carrossel">
+      <button class="arrow-left control" aria-label="Previous image">◀</button>
+      <button class="arrow-right control" aria-label="Next Image">▶</button>
+      <div class="gallery-wrapper">
+        <div class="gallery">
+          <img src="car/10.jpg" alt="carrossel" class="item current-item">
+          <img src="car/11.jpg" alt="carrossel" class="item current-item">
+          <img src="car/12.jpg" alt="carrossel" class="item current-item">
+          <img src="car/13.jpg" alt="carrossel" class="item current-item">
+          <img src="car/14.jpg" alt="carrossel" class="item current-item">
+          <img src="car/15.jpg" alt="carrossel" class="item current-item">
+        </div>
+      </div>
+    </div>
+
+    <div class="inscricao">
+      <button><a href="#inscreva">Inscreva-se</a></button>
+    </div>
+
+
+    <div class="assunto1" id="programacao">
+      <div class="box">
+        <h2>Dia 1</h2>
+        <div class="card">
+          <img class="assunto1" src="imagem/grand.jpg" alt="aluno usando computador">
+        </div>
+        Informática Melhor Idade +60
+      </div>
+      <div class="box">
+        <h2>Dia 2</h2>
+        <div class="card">
+          <img class="assunto1" src="imagem/co-workers.jpg" alt="aluna usando computador">
+        </div>
+        Informática Básica (público geral)
+      </div>
+      <div class="box">
+        <h2>Dia 3</h2>
+        <div class="card">
+          <img class="assunto1" src="imagem/classroom.jpg" alt="sala de aula">
+        </div>
+        Excel Intermediário
+      </div>
+    </div>
+
+    <div class="inscricao">
+      <h2>
+        Nos dias de hoje, a capacitação profissional é essencial para acompanhar as mudanças tecnológicas, sociais e
+        econômicas que afetam o mercado de trabalho.
+      </h2>
+    </div>
+
+    <div class="grid" id="galeria">
+      <div class="foto-1"></div>
+      <div class="foto-2"></div>
+      <div class="foto-3"></div>
+      <div class="foto-4"></div>
+      <div class="foto-5"></div>
+      <div class="foto-6"></div>
+      <div class="foto-7"></div>
+      <div class="foto-8"></div>
+      <div class="foto-9"></div>
+      <div class="foto-10"></div>
+    </div>
+    <div class="grid-galeria">
+      <img src="imagem/1.jpg" alt="capacite-se"><br />
+      <img src="imagem/2.jpg" alt="capacite-se"><br />
+      <img src="imagem/3.jpg" alt="capacite-se"><br />
+      <img src="imagem/4.jpg" alt="capacite-se"><br />
+      <img src="imagem/5.jpg" alt="capacite-se"><br />
+      <img src="imagem/6.jpg" alt="capacite-se"><br />
+      <img src="imagem/7.jpg" alt="capacite-se"><br />
+      <img src="imagem/8.jpg" alt="capacite-se"><br />
+      <img src="imagem/9.jpg" alt="capacite-se"><br />
+      <img src="imagem/10.jpg" alt="capacite-se"><br />
+    </div>
+
+    <div class="inscricao" id="inscreva">
+      <!--formulario-->
+      <h2>Inscreva-se:</h2>
+      <form action="https://formsubmit.co/karin.abe@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://KarinPortfolio.github.io/cade/sucesso.html">
+        <input type="hidden" name="_autoresponse" value="Recebi sua mensagem! Obrigada pelo contato, logo responderei.">
+        <input type="text" name="name" placeholder="Nome" />
+        <input type="text" name="email" placeholder="E-mail" />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <!--video-->
+    <iframe src="https://www.youtube.com/embed/rM8oSH3RVko?si=vfzO3cADUTf53bmg" id="video"></iframe>
+
+    <div class="local" id="localizacao">
+      <div class="endereco">
+        <p> Local: Centro de Capacitação Profissional<br />
+          R. Elpídio dos Santos, 60 - Campo dos Alemães, São José dos Campos - SP, CEP 12239-460<br />
+          <img src="imagem/capacitacao.jpg" alt="centro">
+        </p>
+      </div>
+      <div class="endereco">
+        <p>Visando capacitar pessoas com poucos recursos, abriremos nossa
+          unidade nos dias
+          acima citados para inscrição presencial. Convide um conhecido! <br />Espalhe esta ideia!
+        </p>
+        <!--mapa-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7330.402227002779!2d-45.895807!3d-23.272141!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cdb5679289bebf%3A0x96972956e6459fb0!2sR.%20Elp%C3%ADdio%20dos%20Santos%2C%2060%20-%20Campo%20dos%20Alem%C3%A3es%2C%20S%C3%A3o%20Jos%C3%A9%20dos%20Campos%20-%20SP%2C%2012239-460%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1699434989473!5m2!1spt-BR!2sus"></iframe>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+  <footer>
+    Este site foi criado por Karin Abe para o curso Descodificadas 2023-2 - apenas para fins didáticos
+  </footer>
+</body>
+
+</html>

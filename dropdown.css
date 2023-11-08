@@ -1,0 +1,37 @@
+.menu {
+  list-style: none;
+  float: right;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  border: 1px solid #4682B4;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 0.5vw 1vh;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #616d76;
+  color: #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  border: 1px solid #4682B4;
+  display: block;
+  width: 10vw;
+}
